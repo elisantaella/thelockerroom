@@ -217,7 +217,7 @@
         
         // Camera - positioned to see the full phone
         const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.01, 100);
-        camera.position.set(0, 0, 0.55);
+        camera.position.set(0, 0, 0.65);
 
         // Renderer
         const renderer = new THREE.WebGLRenderer({ 
@@ -336,10 +336,10 @@
                 // Scale to fit nicely in view
                 const size = box.getSize(new THREE.Vector3());
                 const maxDim = Math.max(size.x, size.y, size.z);
-                phone.scale.setScalar(0.85 / maxDim);
+                phone.scale.setScalar(0.75 / maxDim);
                 
                 // Initial position (off-screen below, showing back)
-                phone.position.y = -0.4;
+                phone.position.y = -0.35;
                 phone.rotation.y = Math.PI; // Show back first
                 phone.rotation.x = 0.15; // Slight tilt
                 
@@ -379,7 +379,7 @@
                         // Slide up from below (1.5 seconds)
                         const slideProgress = Math.min(phaseTime / 1.5, 1);
                         const slideEased = easeOutBack(slideProgress);
-                        phone.position.y = -0.4 + (0.4 * slideEased);
+                        phone.position.y = -0.35 + (0.35 * slideEased);
                         
                         if (slideProgress >= 1) {
                             animationPhase = 'pause1';
