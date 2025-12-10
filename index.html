@@ -215,9 +215,9 @@
 
         const scene = new THREE.Scene();
         
-        // Camera - zoomed out to see the full phone
+        // Camera - positioned to see the full phone
         const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.01, 100);
-        camera.position.set(0, 0, 0.9);
+        camera.position.set(0, 0, 0.55);
 
         // Renderer
         const renderer = new THREE.WebGLRenderer({ 
@@ -336,10 +336,10 @@
                 // Scale to fit nicely in view
                 const size = box.getSize(new THREE.Vector3());
                 const maxDim = Math.max(size.x, size.y, size.z);
-                phone.scale.setScalar(0.6 / maxDim);
+                phone.scale.setScalar(0.85 / maxDim);
                 
                 // Initial position (off-screen below, showing back)
-                phone.position.y = -0.3;
+                phone.position.y = -0.4;
                 phone.rotation.y = Math.PI; // Show back first
                 phone.rotation.x = 0.15; // Slight tilt
                 
@@ -379,7 +379,7 @@
                         // Slide up from below (1.5 seconds)
                         const slideProgress = Math.min(phaseTime / 1.5, 1);
                         const slideEased = easeOutBack(slideProgress);
-                        phone.position.y = -0.3 + (0.3 * slideEased);
+                        phone.position.y = -0.4 + (0.4 * slideEased);
                         
                         if (slideProgress >= 1) {
                             animationPhase = 'pause1';
@@ -508,34 +508,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item" data-aos="fade-up">
-                    <span class="stat-number" data-target="500">0</span>
-                    <span class="stat-suffix">+</span>
-                    <span class="stat-label">Active Students</span>
-                </div>
-                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
-                    <span class="stat-number" data-target="10000">0</span>
-                    <span class="stat-suffix">+</span>
-                    <span class="stat-label">Posts Shared</span>
-                </div>
-                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
-                    <span class="stat-number" data-target="99">0</span>
-                    <span class="stat-suffix">%</span>
-                    <span class="stat-label">Uptime</span>
-                </div>
-                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
-                    <span class="stat-number" data-target="2">0</span>
-                    <span class="stat-suffix"></span>
-                    <span class="stat-label">Schools & Counting</span>
                 </div>
             </div>
         </div>
