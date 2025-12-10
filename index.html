@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Locker Room - Your School. Your Community. Your Voice.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="The Locker Room" class="logo-img">
+                </div>
+                <span class="logo-text">The Locker Room</span>
+            </a>
+            
+            <div class="nav-menu">
+                <div class="nav-item dropdown">
+                    <button class="nav-link">
+                        Features
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">📱</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Social Feed</span>
+                                <span class="dropdown-desc">Share posts, polls, and media with your school</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">💬</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Direct Messages</span>
+                                <span class="dropdown-desc">Connect privately with classmates</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">🔔</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Notifications</span>
+                                <span class="dropdown-desc">Stay updated on what matters</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">🛡️</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Safe Space</span>
+                                <span class="dropdown-desc">AI-powered moderation keeps it civil</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="nav-item dropdown">
+                    <button class="nav-link">
+                        Schools
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">🏫</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Beverly Hills High</span>
+                                <span class="dropdown-desc">The original Locker Room community</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">🎓</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Brentwood High</span>
+                                <span class="dropdown-desc">Coming soon to Eagles territory</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">➕</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Your School</span>
+                                <span class="dropdown-desc">Request access for your campus</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="nav-item dropdown">
+                    <button class="nav-link">
+                        Resources
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">📖</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Help Center</span>
+                                <span class="dropdown-desc">Get answers to common questions</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">📋</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Community Guidelines</span>
+                                <span class="dropdown-desc">Learn how to keep it respectful</span>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-icon">🔒</div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">Privacy & Safety</span>
+                                <span class="dropdown-desc">Your data, your control</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Login</a>
+            </div>
+            
+            <a href="#download" class="nav-cta">Download App</a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-badge" data-aos="fade-up">
+                <span class="badge-text">Built exclusively for</span>
+                <div class="badge-logo">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="10" fill="#FF6B35"/>
+                        <path d="M6 10L9 13L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Verified Students</span>
+                </div>
+            </div>
+            
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                Your school's community
+                <br>
+                <span class="gradient-text">finally has a home</span>
+            </h1>
+            
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                The <span class="highlight">only social platform</span> built exclusively for your school.
+                <br class="desktop-only">
+                Polls, Posts, DMs, Reposts, Rate My Professor, and more.
+            </p>
+            
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+                <a href="#download" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 2C10 2 10 8 10 10M10 10C10 12 10 18 10 18M10 10H4M10 10H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M14 6L10 2L6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Download for iOS
+                </a>
+                <span class="cta-subtext">Free for all verified students. Join in seconds.</span>
+            </div>
+        </div>
+        
+        <!-- Phone 3D Mockup -->
+        <div class="hero-mockup" data-aos="fade-up" data-aos-delay="400">
+            <div class="phone-3d-container" id="phone-3d-container">
+                <canvas id="phone-canvas"></canvas>
+                <div class="phone-loading" id="phone-loading">
+                    <div class="loading-spinner"></div>
+                    <span>Loading 3D Model...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three.js Scripts -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+        // Scene setup
+        const container = document.getElementById('phone-3d-container');
+        const canvas = document.getElementById('phone-canvas');
+        const loadingEl = document.getElementById('phone-loading');
+
+        const scene = new THREE.Scene();
+        
+        // Camera - zoomed out to see the full phone
+        const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.01, 100);
+        camera.position.set(0, 0, 0.9);
+
+        // Renderer
+        const renderer = new THREE.WebGLRenderer({ 
+            canvas: canvas,
+            antialias: true,
+            alpha: true 
+        });
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.outputColorSpace = THREE.SRGBColorSpace;
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.0;
+        renderer.setClearColor(0x000000, 0);
+
+        // Lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+        scene.add(ambientLight);
+
+        const mainLight = new THREE.DirectionalLight(0xffffff, 1.2);
+        mainLight.position.set(5, 5, 5);
+        scene.add(mainLight);
+
+        const fillLight = new THREE.DirectionalLight(0xffffff, 0.6);
+        fillLight.position.set(-5, 0, 5);
+        scene.add(fillLight);
+
+        const backLight = new THREE.DirectionalLight(0xffffff, 0.4);
+        backLight.position.set(0, 5, -5);
+        scene.add(backLight);
+
+        // Rim light for that premium edge glow
+        const rimLight = new THREE.DirectionalLight(0xff8855, 0.3);
+        rimLight.position.set(-3, 0, -3);
+        scene.add(rimLight);
+
+        // Variables for animation
+        let phone = null;
+        let videoTexture = null;
+        const clock = new THREE.Clock();
+
+        // Animation state
+        let animationPhase = 'waiting'; // 'waiting', 'slideIn', 'pause1', 'flip', 'pause2', 'idle'
+        let phaseTime = 0;
+
+        // Create video texture
+        const video = document.createElement('video');
+        video.src = 'app.mp4';
+        video.crossOrigin = 'anonymous';
+        video.loop = true;
+        video.muted = true;
+        video.playsInline = true;
+
+        video.addEventListener('loadeddata', () => {
+            videoTexture = new THREE.VideoTexture(video);
+            videoTexture.colorSpace = THREE.SRGBColorSpace;
+        });
+
+        video.load();
+
+        // Screen overlay plane (will be positioned on the phone screen)
+        let screenMesh = null;
+
+        function createScreenOverlay() {
+            if (!phone || !videoTexture || screenMesh) return;
+            
+            // Create a plane geometry for the screen
+            // iPhone 17 Pro Max aspect ratio is approximately 19.5:9 (or about 2.17:1)
+            const screenWidth = 0.071;
+            const screenHeight = 0.154;
+            const screenGeometry = new THREE.PlaneGeometry(screenWidth, screenHeight);
+            
+            const screenMaterial = new THREE.MeshBasicMaterial({
+                map: videoTexture,
+                side: THREE.FrontSide,
+            });
+            
+            screenMesh = new THREE.Mesh(screenGeometry, screenMaterial);
+            
+            // Position the screen on the front of the phone
+            // Slightly in front of the display surface
+            screenMesh.position.set(0, 0, 0.0046);
+            
+            // Add to phone so it moves with it
+            phone.add(screenMesh);
+            
+            video.play();
+        }
+
+        // Easing functions
+        function easeOutCubic(t) {
+            return 1 - Math.pow(1 - t, 3);
+        }
+
+        function easeInOutCubic(t) {
+            return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+        }
+
+        function easeOutBack(t) {
+            const c1 = 1.70158;
+            const c3 = c1 + 1;
+            return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2);
+        }
+
+        // Load the GLB model
+        const loader = new GLTFLoader();
+        loader.load(
+            'Phone_17_Pro_Max_Simple.glb',
+            (gltf) => {
+                phone = gltf.scene;
+                
+                // Center and scale the model
+                const box = new THREE.Box3().setFromObject(phone);
+                const center = box.getCenter(new THREE.Vector3());
+                phone.position.sub(center);
+                
+                // Scale to fit nicely in view
+                const size = box.getSize(new THREE.Vector3());
+                const maxDim = Math.max(size.x, size.y, size.z);
+                phone.scale.setScalar(0.6 / maxDim);
+                
+                // Initial position (off-screen below, showing back)
+                phone.position.y = -0.3;
+                phone.rotation.y = Math.PI; // Show back first
+                phone.rotation.x = 0.15; // Slight tilt
+                
+                scene.add(phone);
+                
+                // Hide loading, start animation
+                loadingEl.style.opacity = '0';
+                setTimeout(() => {
+                    loadingEl.style.display = 'none';
+                    animationPhase = 'slideIn';
+                    phaseTime = 0;
+                }, 300);
+            },
+            (progress) => {
+                if (progress.total > 0) {
+                    const percent = (progress.loaded / progress.total * 100).toFixed(0);
+                    loadingEl.querySelector('span').textContent = `Loading 3D Model... ${percent}%`;
+                }
+            },
+            (error) => {
+                console.error('Error loading model:', error);
+                loadingEl.querySelector('span').textContent = 'Failed to load 3D model';
+            }
+        );
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            const delta = clock.getDelta();
+            
+            if (phone) {
+                phaseTime += delta;
+                
+                switch (animationPhase) {
+                    case 'slideIn':
+                        // Slide up from below (1.5 seconds)
+                        const slideProgress = Math.min(phaseTime / 1.5, 1);
+                        const slideEased = easeOutBack(slideProgress);
+                        phone.position.y = -0.3 + (0.3 * slideEased);
+                        
+                        if (slideProgress >= 1) {
+                            animationPhase = 'pause1';
+                            phaseTime = 0;
+                        }
+                        break;
+                    
+                    case 'pause1':
+                        // Brief pause showing back (1 second)
+                        if (phaseTime >= 1) {
+                            animationPhase = 'flip';
+                            phaseTime = 0;
+                        }
+                        break;
+                    
+                    case 'flip':
+                        // Flip to front (1.5 seconds)
+                        const flipProgress = Math.min(phaseTime / 1.5, 1);
+                        const flipEased = easeInOutCubic(flipProgress);
+                        phone.rotation.y = Math.PI * (1 - flipEased);
+                        
+                        // Apply video texture halfway through flip
+                        if (flipProgress >= 0.5 && !screenMesh && videoTexture) {
+                            createScreenOverlay();
+                        }
+                        
+                        if (flipProgress >= 1) {
+                            animationPhase = 'pause2';
+                            phaseTime = 0;
+                        }
+                        break;
+                    
+                    case 'pause2':
+                        // Brief pause before idle (0.5 seconds)
+                        if (phaseTime >= 0.5) {
+                            animationPhase = 'idle';
+                            phaseTime = 0;
+                        }
+                        break;
+                    
+                    case 'idle':
+                        // Subtle floating animation
+                        const floatY = Math.sin(phaseTime * 1.2) * 0.005;
+                        const floatRotX = 0.15 + Math.sin(phaseTime * 0.9) * 0.03;
+                        const floatRotZ = Math.sin(phaseTime * 0.7) * 0.02;
+                        
+                        phone.position.y = floatY;
+                        phone.rotation.x = floatRotX;
+                        phone.rotation.z = floatRotZ;
+                        break;
+                }
+            }
+            
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        // Handle resize
+        function onResize() {
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+            
+            renderer.setSize(width, height);
+        }
+
+        window.addEventListener('resize', onResize);
+    </script>
+
+    <!-- Features Selection Section -->
+    <section class="features-select">
+        <div class="container">
+            <div class="features-header" data-aos="fade-up">
+                <h2>What <span class="gradient-text">features</span> matter most to you?</h2>
+            </div>
+            
+            <div class="features-grid" data-aos="fade-up" data-aos-delay="100">
+                <button class="feature-pill active" data-feature="feed">
+                    <span class="pill-icon">📱</span>
+                    <span>Social Feed</span>
+                </button>
+                <button class="feature-pill" data-feature="polls">
+                    <span class="pill-icon">📊</span>
+                    <span>Polls</span>
+                </button>
+                <button class="feature-pill" data-feature="dms">
+                    <span class="pill-icon">💬</span>
+                    <span>Direct Messages</span>
+                </button>
+                <button class="feature-pill" data-feature="anon">
+                    <span class="pill-icon">🎭</span>
+                    <span>Anonymous Posts</span>
+                </button>
+                <button class="feature-pill" data-feature="rmp">
+                    <span class="pill-icon">⭐</span>
+                    <span>Rate My Professor</span>
+                </button>
+                <button class="feature-pill" data-feature="notifs">
+                    <span class="pill-icon">🔔</span>
+                    <span>Smart Notifications</span>
+                </button>
+            </div>
+            
+            <div class="feature-showcase" data-aos="fade-up" data-aos-delay="200">
+                <div class="showcase-content" id="showcase-content">
+                    <div class="showcase-text">
+                        <h3>Your Personalized Feed</h3>
+                        <p>See what's happening at your school in real-time. Trending posts, latest updates, and content from people you follow — all in one beautiful, infinitely scrolling feed.</p>
+                        <ul class="showcase-list">
+                            <li>Upvote and downvote to surface the best content</li>
+                            <li>Repost with your own commentary</li>
+                            <li>Share photos, videos, and more</li>
+                            <li>Sort by trending, new, or top posts</li>
+                        </ul>
+                    </div>
+                    <div class="showcase-visual">
+                        <div class="visual-card">
+                            <div class="visual-icon">📱</div>
+                            <div class="visual-animation">
+                                <div class="floating-post"></div>
+                                <div class="floating-post delay-1"></div>
+                                <div class="floating-post delay-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Active Students</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <span class="stat-number" data-target="10000">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Posts Shared</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <span class="stat-number" data-target="99">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-suffix"></span>
+                    <span class="stat-label">Schools & Counting</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Join your school in <span class="gradient-text">3 simple steps</span></h2>
+                <p>Get verified and start connecting with your classmates in minutes.</p>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 20L24 28L40 20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Enter Your School Email</h3>
+                    <p>Use your official @bhusd.org or school email address to get started.</p>
+                </div>
+                
+                <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 24L22 30L32 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Verify Your Identity</h3>
+                    <p>Our unique verification system confirms you're a real student — no spam emails needed.</p>
+                </div>
+                
+                <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8L28 16L36 17.5L30 24L31.5 32L24 28L16.5 32L18 24L12 17.5L20 16L24 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Start Connecting</h3>
+                    <p>You're in! Post, comment, vote, message, and become part of your school's community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="safety-section">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text" data-aos="fade-right">
+                    <div class="safety-badge">
+                        <span>🛡️ Built with Safety First</span>
+                    </div>
+                    <h2>A safe space for <span class="gradient-text">real conversations</span></h2>
+                    <p>We use advanced AI moderation combined with human review to keep The Locker Room a positive, welcoming environment for everyone.</p>
+                    
+                    <div class="safety-features">
+                        <div class="safety-feature">
+                            <div class="feature-icon">🤖</div>
+                            <div class="feature-text">
+                                <h4>AI-Powered Moderation</h4>
+                                <p>Content is automatically scanned for harmful material before it's posted.</p>
+                            </div>
+                        </div>
+                        <div class="safety-feature">
+                            <div class="feature-icon">👥</div>
+                            <div class="feature-text">
+                                <h4>Student Moderators</h4>
+                                <p>Trusted students help maintain community standards.</p>
+                            </div>
+                        </div>
+                        <div class="safety-feature">
+                            <div class="feature-icon">🚨</div>
+                            <div class="feature-text">
+                                <h4>Easy Reporting</h4>
+                                <p>Report issues with one tap. We respond within hours.</p>
+                            </div>
+                        </div>
+                        <div class="safety-feature">
+                            <div class="feature-icon">🔐</div>
+                            <div class="feature-text">
+                                <h4>Verified Students Only</h4>
+                                <p>Only verified school email holders can join.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="safety-visual" data-aos="fade-left">
+                    <div class="shield-graphic">
+                        <div class="shield-outer">
+                            <div class="shield-inner">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                                    <path d="M40 10L60 20V40C60 55 50 65 40 70C30 65 20 55 20 40V20L40 10Z" stroke="url(#shield-gradient)" stroke-width="3" fill="none"/>
+                                    <path d="M30 40L37 47L52 32" stroke="url(#shield-gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                        <linearGradient id="shield-gradient" x1="20" y1="10" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FF6B35"/>
+                                            <stop offset="1" stop-color="#FF8F6B"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="shield-particles">
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What students are <span class="gradient-text">saying</span></h2>
+                <p>Join hundreds of students already using The Locker Room</p>
+            </div>
+            
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Finally an app that's actually just for our school. No random people, no spam — just us."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <span class="author-name">BHHS Senior</span>
+                                <span class="author-school">Class of 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The polls are so addicting. We use them for everything now — where to eat, study groups, everything."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <span class="author-name">BHHS Junior</span>
+                                <span class="author-school">Class of 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Way better than our old group chats. Actually feels like a real community now."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <span class="author-name">BHHS Sophomore</span>
+                                <span class="author-school">Class of 2027</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Rate My Professor is clutch for picking classes. Saved me from so many bad decisions."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👤</div>
+                            <div class="author-info">
+                                <span class="author-name">BHHS Senior</span>
+                                <span class="author-school">Class of 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+        <div class="container">
+            <div class="download-content" data-aos="fade-up">
+                <h2>Ready to join <span class="gradient-text">your community</span>?</h2>
+                <p>Download The Locker Room and connect with your school today.</p>
+                
+                <div class="download-buttons">
+                    <a href="#" class="download-btn app-store">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                        </svg>
+                        <div class="btn-text">
+                            <span class="btn-small">Download on the</span>
+                            <span class="btn-large">App Store</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="download-qr">
+                    <div class="qr-code">
+                        <div class="qr-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                                <rect x="10" y="10" width="30" height="30" rx="4" stroke="#1a1a1a" stroke-width="4"/>
+                                <rect x="80" y="10" width="30" height="30" rx="4" stroke="#1a1a1a" stroke-width="4"/>
+                                <rect x="10" y="80" width="30" height="30" rx="4" stroke="#1a1a1a" stroke-width="4"/>
+                                <rect x="18" y="18" width="14" height="14" fill="#1a1a1a"/>
+                                <rect x="88" y="18" width="14" height="14" fill="#1a1a1a"/>
+                                <rect x="18" y="88" width="14" height="14" fill="#1a1a1a"/>
+                                <rect x="50" y="10" width="20" height="8" fill="#1a1a1a"/>
+                                <rect x="50" y="50" width="20" height="20" fill="#1a1a1a"/>
+                                <rect x="80" y="50" width="8" height="20" fill="#1a1a1a"/>
+                                <rect x="95" y="80" width="15" height="8" fill="#1a1a1a"/>
+                                <rect x="50" y="80" width="8" height="30" fill="#1a1a1a"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="qr-text">Scan to download</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download-bg">
+            <div class="bg-gradient"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <div class="logo-icon">
+                            <img src="logo.png" alt="The Locker Room" class="logo-img logo-img-sm">
+                        </div>
+                        <span>The Locker Room</span>
+                    </a>
+                    <p>Your school. Your community. Your voice.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 1.8C12.67 1.8 12.99 1.81 14.04 1.86C15.02 1.9 15.55 2.06 15.9 2.19C16.36 2.36 16.7 2.57 17.05 2.93C17.41 3.28 17.62 3.62 17.79 4.08C17.92 4.43 18.08 4.96 18.12 5.94C18.17 6.99 18.18 7.31 18.18 9.98C18.18 12.65 18.17 12.97 18.12 14.02C18.08 15 17.92 15.53 17.79 15.88C17.62 16.34 17.41 16.68 17.05 17.03C16.7 17.39 16.36 17.6 15.9 17.77C15.55 17.9 15.02 18.06 14.04 18.1C12.99 18.15 12.67 18.16 10 18.16C7.33 18.16 7.01 18.15 5.96 18.1C4.98 18.06 4.45 17.9 4.1 17.77C3.64 17.6 3.3 17.39 2.95 17.03C2.59 16.68 2.38 16.34 2.21 15.88C2.08 15.53 1.92 15 1.88 14.02C1.83 12.97 1.82 12.65 1.82 9.98C1.82 7.31 1.83 6.99 1.88 5.94C1.92 4.96 2.08 4.43 2.21 4.08C2.38 3.62 2.59 3.28 2.95 2.93C3.3 2.57 3.64 2.36 4.1 2.19C4.45 2.06 4.98 1.9 5.96 1.86C7.01 1.81 7.33 1.8 10 1.8ZM10 0C7.28 0 6.94 0.01 5.88 0.06C4.82 0.11 4.09 0.28 3.45 0.53C2.78 0.78 2.21 1.13 1.65 1.69C1.09 2.25 0.74 2.82 0.49 3.49C0.24 4.13 0.07 4.86 0.02 5.92C-0.03 6.98 -0.04 7.32 -0.04 10.04C-0.04 12.76 -0.03 13.1 0.02 14.16C0.07 15.22 0.24 15.95 0.49 16.59C0.74 17.26 1.09 17.83 1.65 18.39C2.21 18.95 2.78 19.3 3.45 19.55C4.09 19.8 4.82 19.97 5.88 20.02C6.94 20.07 7.28 20.08 10 20.08C12.72 20.08 13.06 20.07 14.12 20.02C15.18 19.97 15.91 19.8 16.55 19.55C17.22 19.3 17.79 18.95 18.35 18.39C18.91 17.83 19.26 17.26 19.51 16.59C19.76 15.95 19.93 15.22 19.98 14.16C20.03 13.1 20.04 12.76 20.04 10.04C20.04 7.32 20.03 6.98 19.98 5.92C19.93 4.86 19.76 4.13 19.51 3.49C19.26 2.82 18.91 2.25 18.35 1.69C17.79 1.13 17.22 0.78 16.55 0.53C15.91 0.28 15.18 0.11 14.12 0.06C13.06 0.01 12.72 0 10 0Z"/>
+                                <path d="M10 4.86C7.16 4.86 4.86 7.16 4.86 10C4.86 12.84 7.16 15.14 10 15.14C12.84 15.14 15.14 12.84 15.14 10C15.14 7.16 12.84 4.86 10 4.86ZM10 13.33C8.16 13.33 6.67 11.84 6.67 10C6.67 8.16 8.16 6.67 10 6.67C11.84 6.67 13.33 8.16 13.33 10C13.33 11.84 11.84 13.33 10 13.33Z"/>
+                                <circle cx="15.34" cy="4.66" r="1.2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M15.27 1.67H18.08L11.94 8.67L19.17 18.33H13.51L9.08 12.56L4.01 18.33H1.19L7.73 10.87L0.83 1.67H6.63L10.66 6.98L15.27 1.67ZM14.27 16.6H15.83L5.83 3.27H4.14L14.27 16.6Z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M14.38 7.1V10.18C13.47 10.18 12.6 9.95 11.84 9.52V13.77C11.84 16.05 9.98 17.91 7.7 17.91C6.56 17.91 5.52 17.46 4.74 16.73C3.59 15.64 3.04 14.01 3.41 12.39C3.87 10.33 5.79 8.79 7.95 8.87V12.02C7.85 11.99 7.74 11.97 7.63 11.95C6.74 11.83 5.89 12.4 5.69 13.28C5.5 14.11 5.95 14.94 6.74 15.26C7.03 15.38 7.35 15.44 7.68 15.42C8.58 15.36 9.3 14.6 9.3 13.69V2.08H12.38C12.38 2.37 12.41 2.65 12.46 2.92C12.66 4.01 13.34 4.94 14.31 5.45C14.91 5.77 15.59 5.94 16.3 5.94V9.03C15.6 9.03 14.94 8.89 14.35 8.64C14.36 8.12 14.38 7.59 14.38 7.1Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Schools</a></li>
+                            <li><a href="#">Safety</a></li>
+                            <li><a href="#">Download</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Community Guidelines</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Locker Room. All rights reserved.</p>
+                <p>Made with ❤️ for students, by students.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#" class="mobile-nav-link">Features</a>
+            <a href="#" class="mobile-nav-link">Schools</a>
+            <a href="#" class="mobile-nav-link">Resources</a>
+            <a href="#" class="mobile-nav-link">About</a>
+            <a href="#" class="mobile-nav-link">Login</a>
+            <a href="#download" class="mobile-cta">Download App</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
