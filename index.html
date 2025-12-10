@@ -379,7 +379,7 @@
                         // Slide up from below (1.5 seconds)
                         const slideProgress = Math.min(phaseTime / 1.5, 1);
                         const slideEased = easeOutBack(slideProgress);
-                        phone.position.y = -0.32 + (0.32 * slideEased);
+                        phone.position.y = -0.32 + (0.30 * slideEased);
                         
                         if (slideProgress >= 1) {
                             animationPhase = 'pause1';
@@ -422,7 +422,7 @@
                     
                     case 'idle':
                         // Subtle floating animation
-                        const floatY = Math.sin(phaseTime * 1.2) * 0.005;
+                        const floatY = -0.02 + Math.sin(phaseTime * 1.2) * 0.005;
                         const floatRotX = 0.15 + Math.sin(phaseTime * 0.9) * 0.03;
                         const floatRotZ = Math.sin(phaseTime * 0.7) * 0.02;
                         
