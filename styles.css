@@ -497,14 +497,15 @@ img {
 /* Hero Mockup - 3D Phone */
 .hero-mockup {
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -40px;
     animation: fadeInUp 0.8s ease-out 0.4s backwards;
 }
 
 .phone-3d-container {
     position: relative;
     width: 100%;
-    height: 480px;
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -585,7 +586,7 @@ img {
    Features Selection Section
 ================================ */
 .features-select {
-    padding: var(--section-padding) 0;
+    padding: 60px 0 var(--section-padding);
     background: var(--bg-primary);
 }
 
@@ -1459,11 +1460,12 @@ img {
     }
     
     .hero-mockup {
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: -20px;
     }
     
     .phone-3d-container {
-        height: 380px;
+        height: 420px;
     }
     
     .phone-image {
